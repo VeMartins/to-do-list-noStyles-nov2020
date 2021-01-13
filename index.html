@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>To-do List </h1>
+		
+	</header>
+    <div class="form">
+		<label for="item_to_add" class="label1"> What I need to do: </label>
+		<input type="text" name="item_to_add" id="to_do_item" placeholder="Add an item" required> 
+		<button onclick="addItem()">Add</button> 
+		<button onclick="clearList()">Clear List</button> 
+
+	</div>
+
+		<ol id="list"></ol>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
